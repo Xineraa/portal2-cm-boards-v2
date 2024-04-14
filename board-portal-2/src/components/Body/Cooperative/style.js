@@ -10,7 +10,7 @@ export const useStyles = makeStyles(theme => ({
     "&:last-child": {
       paddingBottom: 2
     },
-    backgroundColor: theme.palette.background.paper
+    backgroundcolor: theme.palette.background.paper
   },
   chapter_number: {
     color: "white",
@@ -29,7 +29,7 @@ export const useStyles = makeStyles(theme => ({
   },
   chapter_title_container: {
     display: "flex",
-    flexDirection: "column",
+    flexdirection: "column",
     marginLeft: 26,
     marginTop: 20,
     marginBottom: 15
@@ -45,15 +45,15 @@ export const useStyles = makeStyles(theme => ({
   },
   level_title: {
     display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
+    justifycontent: "center",
+    alignitems: "center",
     position: "absolute",
     top: 0,
     right: 0,
     height: 30,
     width: "50%",
     color: "black",
-    backgroundColor: "#dbdbdb",
+    backgroundcolor: "#dbdbdb",
     padding: "0px 10px 0px 10px"
   },
   level_title_helper: {
@@ -66,7 +66,7 @@ export const useStyles = makeStyles(theme => ({
     borderLeft: "30px solid transparent"
   },
   first_place: {
-    backgroundColor: theme.palette.background.default,
+    backgroundcolor: theme.palette.background.default,
     width: "100%"
   }
 }))

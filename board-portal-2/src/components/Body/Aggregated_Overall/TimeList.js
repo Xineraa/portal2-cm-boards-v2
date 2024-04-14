@@ -40,7 +40,7 @@ const TimeList = props => {
       {/* <Divider /> */}
       <ListItem
         style={{
-          backgroundColor: props.themeStatus
+          backgroundcolor: props.themeStatus
             ? "rgb(154, 166, 187)"
             : "rgb(41, 49, 62)"
         }}>

@@ -8,7 +8,7 @@ const ScoreGraph = props => {
         columns.push(props.graphData[days + 1 - i].date)
         data.push(props.graphData[days + 1 - i].count)
     }
-    return <div flexDirection="column" justifyContent="center">
+    return <div flexdirection="column" justifycontent="center">
         <BarChart
             xAxis={[
                 {

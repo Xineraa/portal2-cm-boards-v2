@@ -26,7 +26,7 @@ const AggregatedOverall = () => {
             backgroundImage: `url(${imgOverall})`
           }}
         />
-        <Grid container justify='center' alignItems='center' direction='column'>
+        <Grid container justify='center' alignitems='center' direction='column'>
           <Typography
             color='inherit'
             variant='h4'
@@ -43,12 +43,12 @@ const AggregatedOverall = () => {
         <Grid
           container
           direction='row'
-          alignItems='flex-end'
+          alignitems='flex-end'
           className={classes.showingSelector}>
           <Grid
             container
             justify='flex-start'
-            alignItems='center'
+            alignitems='center'
             style={{ width: "50%" }}>
             <CustomIconButton>
               <ArrowBackIos />
@@ -61,7 +61,7 @@ const AggregatedOverall = () => {
           <Grid
             container
             justify='flex-end'
-            alignItems='center'
+            alignitems='center'
             style={{ width: "50%" }}>
             <CustomIconButton>
               <ArrowBackIos />

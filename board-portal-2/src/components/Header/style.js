@@ -22,12 +22,12 @@ export const useStyles = makeStyles(theme => ({
   root: {},
   toolbar: {
     minHeight: "8.033em",
-    alignItems: "flex-start",
+    alignitems: "flex-start",
     paddingTop: theme.spacing(1),
     paddingBottom: theme.spacing(2)
   },
   title: {
-    flexGrow: 1,
+    flexgrow: 1,
     alignSelf: "auto",
     paddingBottom: "1em"
   },
@@ -35,7 +35,7 @@ export const useStyles = makeStyles(theme => ({
     // width: "100%"
   },
   steam: {
-    justifyContent: "flex-end",
+    justifycontent: "flex-end",
     alignSelf: "center",
     "& div": {
       fontSize: "1.25rem",

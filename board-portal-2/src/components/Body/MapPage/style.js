@@ -19,7 +19,7 @@ export const useStyles = makeStyles((theme) => ({
   },
   scores: {
     width: "100%",
-    backgroundColor: theme.palette.background.paper,
+    backgroundcolor: theme.palette.background.paper,
   },
   scoreItem: {
     borderBottom: `1px solid ${theme.palette.primary.dark}`,

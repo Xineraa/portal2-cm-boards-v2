@@ -16,7 +16,7 @@ import { makeStyles, withStyles } from "@material-ui/core/styles"
 const useStyles = makeStyles(theme => ({
   root: {},
   error: {
-    backgroundColor: "rgb(31,31,31)",
+    backgroundcolor: "rgb(31,31,31)",
     height: "100vh"
   },
   errorImg: {

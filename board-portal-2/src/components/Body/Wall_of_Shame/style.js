@@ -24,6 +24,6 @@ export const useStyles = makeStyles(theme => ({
   },
   listItem: {
     width: "inherit",
-    justifyContent: "space-around"
+    justifycontent: "space-around"
   }
 }))

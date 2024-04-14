@@ -37,7 +37,7 @@ const Header = ({ handleChange, themeStatus }) => {
           <Grid
             container
             justify='space-around'
-            alignItems='flex-start'
+            alignitems='flex-start'
             direction='column'>
             <Grid item>
               <Typography
@@ -78,7 +78,7 @@ const Header = ({ handleChange, themeStatus }) => {
             container
             direction='column'
             justify='center'
-            alignItems='flex-end'
+            alignitems='flex-end'
             xs='2'>
             <Grid item container justify='flex-end'>
               <CustomButton
@@ -89,7 +89,7 @@ const Header = ({ handleChange, themeStatus }) => {
                 <img src={steamIcon} style={{ height: "45px" }} />
               </CustomButton>
             </Grid>
-            <Grid item container justify='flex-end' alignItems='center'>
+            <Grid item container justify='flex-end' alignitems='center'>
               <Grid item>
                 <Typography color='textPrimary'>Dark</Typography>
               </Grid>

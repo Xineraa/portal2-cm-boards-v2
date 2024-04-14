@@ -35,7 +35,7 @@ const Donators = () => {
       <Grid
         container
         display='flex'
-        alignItems='flex-start'
+        alignitems='flex-start'
         justify='space-between'>
         <Grid item style={{ width: "40%" }}>
           <List>

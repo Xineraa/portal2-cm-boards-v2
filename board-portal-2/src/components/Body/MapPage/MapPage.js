@@ -32,7 +32,7 @@ function MapPage({ match }) {
         className={classes.pageContainer}
         container
         direction="column"
-        alignItems="center"
+        alignitems="center"
         xs={12}
         md={6}
       >

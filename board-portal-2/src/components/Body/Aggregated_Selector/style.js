@@ -33,8 +33,8 @@ export const useStyles = makeStyles(theme => ({
     top: 0,
     bottom: 0,
     display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
+    alignitems: "center",
+    justifycontent: "center",
     color: theme.palette.common.white
   },
   imageSrc: {
@@ -52,7 +52,7 @@ export const useStyles = makeStyles(theme => ({
     right: 0,
     top: 0,
     bottom: 0,
-    backgroundColor: theme.palette.common.black,
+    backgroundcolor: theme.palette.common.black,
     opacity: 0.4,
     transition: theme.transitions.create("opacity")
   },

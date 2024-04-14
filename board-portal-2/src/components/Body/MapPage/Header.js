@@ -10,7 +10,7 @@ function Header({ mapName, chapterName, image }) {
       className={classes.header}
       container
       direction="column"
-      alignItems="center"
+      alignitems="center"
       justify="center"
     >
       <Typography

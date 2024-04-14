@@ -43,7 +43,7 @@ const ScoreLists = props => {
           <ListItem
             style={{
               // hella not optimized but it works to alternate the color
-              backgroundColor:
+              backgroundcolor:
                 index % 2 == 0
                   ? props.theme.palette.background.paper
                   : props.themeStatus

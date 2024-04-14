@@ -16,10 +16,10 @@ export const useStyles = makeStyles(theme => ({
   },
   listItem: {
     width: "inherit",
-    justifyContent: "space-around"
+    justifycontent: "space-around"
   },
   img: {
     width: "30%",
-    justifyContent: "flex-end"
+    justifycontent: "flex-end"
   }
 }))

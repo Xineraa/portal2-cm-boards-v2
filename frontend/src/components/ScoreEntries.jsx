@@ -9,7 +9,7 @@ const ScoreEntries = props => {
     var index = 0
     var coopIDList = []
 
-    return <div flexDirection="column" justifyContent="flex-start">
+    return <div flexdirection="column" justifycontent="flex-start">
         {
             props.changelogData.map(submission => {
 
@@ -19,9 +19,9 @@ const ScoreEntries = props => {
 
                 return <Box
                 display="flex"
-                flexDirection="column"
+                flexdirection="column"
                 style={{
-                    backgroundColor:
+                    backgroundcolor:
                       index % 2 === 0
                         ? colors.gray[700]
                         : colors.gray[600]

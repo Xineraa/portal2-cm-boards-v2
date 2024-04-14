@@ -14,11 +14,11 @@ const Topbar = () => {
     const colorMode = useContext(ColorModeContext);
     console.log(leaderboardDropdown)
     return (
-    <Box display="flex" justifyContent="center" p={2} gap="100px">
+    <Box display="flex" justifycontent="center" p={2} gap="100px">
 
         {/* LOGO */}
         <Box display="flex">
-            <Box display="flex" alignItems="center">
+            <Box display="flex" alignitems="center">
                 <IconButton disableRipple>
                     <img src={Logo} style={{width:"25%"}} alt="P2CM"/>
                     <Typography
@@ -37,11 +37,11 @@ const Topbar = () => {
         <Box display="flex">
             <Box
             display="flex"
-            alignItems="center"
+            alignitems="center"
             gap="20px"
             >
-                {topbarItems.map(item => {
-                    return <TopbarItem path={item.path} title={item.title} icon={item.icon} dropdown={item.dropdown}/>
+                {topbarItems.map((item, index) => {
+                    return <TopbarItem key={index} path={item.path} title={item.title} icon={item.icon} dropdown={item.dropdown}/>
                 })}
             </Box>
         </Box>
@@ -49,7 +49,7 @@ const Topbar = () => {
         {/* PROFILE */}
         <Box
         display="flex"
-        alignItems="center"
+        alignitems="center"
         >
             <IconButton disableRipple>
                 <img src={PFP}
