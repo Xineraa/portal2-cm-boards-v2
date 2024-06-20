@@ -11,7 +11,7 @@ const InfoGrid = props => {
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
     return (
-        <Grid container spacing={0} flexGrow={props.grow} paddingTop="5px" paddingBottom="5px">
+        <Grid container spacing={0} flexgrow={props.grow} paddingTop="5px" paddingBottom="5px">
             <Grid item xs={3}>
                 <Typography
                     variant="h4"
@@ -54,11 +54,11 @@ const ScoreEntryDropdown = props => {
                 </Typography>
             </Grid>
             <Grid item xs={4} display="flex">
-                <Box display="flex" flexDirection="column" style={{width:"100%"}}>
+                <Box display="flex" flexdirection="column" style={{width:"100%"}}>
                     <InfoGrid title="COMMENT:" text={submission.note} grow={1}/>
                     <InfoGrid title="SAR Version:" text={submission.note}/>
                     <InfoGrid title="Status:" text={submission.note}/>
-                    <Box display="flex" justifyContent="flex-start" paddingTop="5px" gap="10px">
+                    <Box display="flex" justifycontent="flex-start" paddingTop="5px" gap="10px">
                         <DownloadIcon fontSize='large'/>
                         <YouTubeIcon fontSize='large'/>
                     </Box>

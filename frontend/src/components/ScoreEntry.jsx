@@ -10,14 +10,14 @@ const useStyles = makeStyles((theme) => ({
     customRow: {
       height: 40, // Set your desired height here
       display: 'flex',
-      justifyContent: 'flex-start',
-      alignItems: 'center',
+      justifycontent: 'flex-start',
+      alignitems: 'center',
     },
     customRowEnd: {
         height: 40, // Set your desired height here
         display: 'flex',
-        justifyContent: 'flex-end',
-        alignItems: 'center',
+        justifycontent: 'flex-end',
+        alignitems: 'center',
       },
 }));
 
@@ -37,8 +37,8 @@ const ScoreEntry = props => {
     <div>
         {/* Data points */}
         <Grid container spacing={0}>
-            <Grid item xs={0.75} display="flex" justifyContent="center" alignItems="center" style={{
-                backgroundColor: submission.pre_rank === null ? "#00000000" :
+            <Grid item xs={0.75} display="flex" justifycontent="center" alignitems="center" style={{
+                backgroundcolor: submission.pre_rank === null ? "#00000000" :
                 submission.pre_rank > 200 ? ranks[10] : ranks[Math.round((submission.pre_rank)/20)]
             }}>
                 <Typography
@@ -49,8 +49,8 @@ const ScoreEntry = props => {
                     {submission.pre_rank}
                 </Typography>
             </Grid>
-            <Grid item xs={0.75} display="flex" justifyContent="center" alignItems="center" style={{
-                backgroundColor: submission.post_rank === null ? "#00000000" :
+            <Grid item xs={0.75} display="flex" justifycontent="center" alignitems="center" style={{
+                backgroundcolor: submission.post_rank === null ? "#00000000" :
                 submission.post_rank > 200 ? ranks[10] : ranks[Math.round((submission.post_rank)/20)]
             }}>
                 <Typography

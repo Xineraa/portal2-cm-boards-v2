@@ -49,25 +49,25 @@ const ScoreUpdates = () => {
 
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
-    return <div id="main" flexDirection="column" justifyContent="flex-start" style={{"--bgcolor": theme.palette.background.default}}>
+    return <div id="main" flexdirection="column" justifycontent="flex-start" style={{"--bgcolor": theme.palette.background.default}}>
         <Topbar />
         {/* Info boxes */}
-        <Box display="flex" justifyContent="center" padding="15px">
-            <Box display="flex" justifyContent="center" width="93%" gap="30px">
+        <Box display="flex" justifycontent="center" padding="15px">
+            <Box display="flex" justifycontent="center" width="93%" gap="30px">
                 {/* Following*/}
-                <Box display="flex" justifyContent="center" flexGrow={0.3}>
+                <Box display="flex" justifycontent="center" flexgrow={0.3}>
                     <Box display="flex"
-                    justifyContent="center"
-                    flexDirection="column"
+                    justifycontent="center"
+                    flexdirection="column"
                     width="100%"
                     >
                         {/* Title: FOLLOWING */}
                         <Box
                         display="flex"
                         padding="10px"
-                        backgroundColor={colors.primary[700]}
+                        backgroundcolor={colors.primary[700]}
                         style={{borderTopLeftRadius:"10px", borderTopRightRadius:"10px"}}
-                        alignItems="center"
+                        alignitems="center"
                         >
                             <HistoryIcon style={{fontSize:"200%"}}/>
                             <Typography
@@ -83,15 +83,15 @@ const ScoreUpdates = () => {
                         {/* Following Scores */}
                         <div
                         display="flex"
-                        backgroundColor={colors.primary[600]}
+                        backgroundcolor={colors.primary[600]}
                         style={{
                             borderBottomLeftRadius:"10px",
-                            backgroundColor:colors.primary[600],
+                            backgroundcolor:colors.primary[600],
                             borderBottomRightRadius:"10px",
                             backgroundClip:"padding-box"
                         }}
-                        alignItems="center"
-                        justifyContent="center"
+                        alignitems="center"
+                        justifycontent="center"
                         >
                             {loading ? null :
                                 <ScoreGraph
@@ -102,19 +102,19 @@ const ScoreUpdates = () => {
                     </Box>
                 </Box>
                 {/* Daily Activity */}
-                <Box display="flex" justifyContent="center" flexGrow={0.7}>
+                <Box display="flex" justifycontent="center" flexgrow={0.7}>
                     <Box display="flex"
-                    justifyContent="center"
-                    flexDirection="column"
+                    justifycontent="center"
+                    flexdirection="column"
                     width="100%"
                     >
                         {/* Title: DAILY ACTIVITY */}
                         <Box
                         display="flex"
                         padding="10px"
-                        backgroundColor={colors.primary[700]}
+                        backgroundcolor={colors.primary[700]}
                         style={{borderTopLeftRadius:"10px", borderTopRightRadius:"10px"}}
-                        alignItems="center"
+                        alignitems="center"
                         >
                             <HistoryIcon style={{fontSize:"200%"}}/>
                             <Typography
@@ -130,15 +130,15 @@ const ScoreUpdates = () => {
                         {/* Graph */}
                         <div
                         display="flex"
-                        backgroundColor={colors.primary[600]}
+                        backgroundcolor={colors.primary[600]}
                         style={{
                             borderBottomLeftRadius:"10px",
-                            backgroundColor:colors.primary[600],
+                            backgroundcolor:colors.primary[600],
                             borderBottomRightRadius:"10px",
                             backgroundClip:"padding-box"
                         }}
-                        alignItems="center"
-                        justifyContent="center"
+                        alignitems="center"
+                        justifycontent="center"
                         >
                             {loading ? null :
                                 <ScoreGraph
@@ -152,10 +152,10 @@ const ScoreUpdates = () => {
         </Box>
 
         {/* Score Updates */}
-        <Box display="flex" justifyContent="center" padding="15px">
+        <Box display="flex" justifycontent="center" padding="15px">
             <Box display="flex"
-            justifyContent="center"
-            flexDirection="column"
+            justifycontent="center"
+            flexdirection="column"
             width="93%"
             style={{borderRadius:"10px"}}
             >
@@ -163,10 +163,10 @@ const ScoreUpdates = () => {
                 <Box
                 display="flex"
                 padding="10px"
-                flexGrow="1"
-                backgroundColor={colors.primary[700]}
+                flexgrow="1"
+                backgroundcolor={colors.primary[700]}
                 style={{borderTopLeftRadius:"10px", borderTopRightRadius:"10px"}}
-                alignItems="center"
+                alignitems="center"
                 >
                     <HistoryIcon style={{fontSize:"200%"}}/>
                     <Typography
@@ -183,18 +183,18 @@ const ScoreUpdates = () => {
                 <div
                 display="flex"
                 padding="20px"
-                flexGrow="1"
-                backgroundColor={colors.primary[600]}
+                flexgrow="1"
+                backgroundcolor={colors.primary[600]}
                 style={{
                     borderBottomLeftRadius:"10px",
-                    backgroundColor:colors.primary[600],
+                    backgroundcolor:colors.primary[600],
                     borderBottomRightRadius:"10px",
                     width:"100%",
                     padding:"20px",
                     backgroundClip:"padding-box"
                 }}
-                alignItems="center"
-                justifyContent="center"
+                alignitems="center"
+                justifycontent="center"
                 >
                     <ScoreEntries
                         changelogData={changelogData}

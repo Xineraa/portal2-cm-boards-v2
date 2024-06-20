@@ -36,10 +36,10 @@ function Score({ rank, avatar, name, time, score }) {
     <Grid
       container
       justify="center"
-      alignItems="center"
+      alignitems="center"
       className={classes.scoreItem}
     >
-      <Grid container alignItems="center" xs={6}>
+      <Grid container alignitems="center" xs={6}>
         <Typography
           className={classes.scoreRank}
           variant="caption"
@@ -56,7 +56,7 @@ function Score({ rank, avatar, name, time, score }) {
           {name}
         </Typography>
       </Grid>
-      <Grid container justify="flex-end" alignItems="center" xs={6}>
+      <Grid container justify="flex-end" alignitems="center" xs={6}>
         {/*<Typography
         className={classes.scoreTime}
         variant="body1"
